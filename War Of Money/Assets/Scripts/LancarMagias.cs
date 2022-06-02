@@ -15,30 +15,26 @@ void Start(){
         Animacao = GetComponent<Animator>();
     }
     void UpDate(){
-    AninAtacar();
+  
     
     }
      
     public void atacar(){
-
+        
           
         Rigidbody Rb = Rigidbody.Instantiate (Magia, OndeSaiMagia.position, OndeSaiMagia.rotation)
             as Rigidbody;
             Rb.AddForce(OndeSaiMagia.forward * VelocidadeDaMagia);
-         // Animacao.SetInteger("Atacar",2);
+          Animacao.SetInteger("Atacar",2);
             Debug.Log("Lançou Magia");
+            
            
         
         
             
     }
 
-    public void AninAtacar(){
-        if(Input.GetKey( KeyCode.Space )){
-            Animacao.SetInteger("Atacar",2);
-        }
-        
-    }  
+    
 
     
     

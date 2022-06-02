@@ -26,8 +26,7 @@ public class PlayerMovimetJoystic : MonoBehaviour
     
     void movePlayer(){
         
-        //moveH = Input.GetAxis("Horizontal");
-        //moveV = Input.GetAxis("Vertical");
+        
         moveH = moveJoystic.joystick.joystickX;
         moveV = moveJoystic.joystick.joystickY; 
         Vector3 dir = new Vector3(moveH,0, moveV);
@@ -42,6 +41,7 @@ public class PlayerMovimetJoystic : MonoBehaviour
     void animationPlayer(){
         Animacao.SetFloat("HorizontalMove",moveH);
         Animacao.SetFloat("VerticalMove",moveV);
+ 
     }
     
 }
