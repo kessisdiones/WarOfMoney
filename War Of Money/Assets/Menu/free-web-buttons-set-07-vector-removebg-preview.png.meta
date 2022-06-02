@@ -1,0 +1,409 @@
+fileFormatVersion: 2
+guid: 3f3f6c4a60af9684f8d1ec99312ade8b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5447442891534302617
+    second: free-web-buttons-set-07-vector-removebg-preview_0
+  - first:
+      213: 1270704824147355388
+    second: free-web-buttons-set-07-vector-removebg-preview_1
+  - first:
+      213: -6552368455344874507
+    second: free-web-buttons-set-07-vector-removebg-preview_2
+  - first:
+      213: 1247341200695492589
+    second: free-web-buttons-set-07-vector-removebg-preview_3
+  - first:
+      213: -3468413002990625501
+    second: free-web-buttons-set-07-vector-removebg-preview_4
+  - first:
+      213: -9049717885136433520
+    second: free-web-buttons-set-07-vector-removebg-preview_5
+  - first:
+      213: 1416289195646384215
+    second: free-web-buttons-set-07-vector-removebg-preview_6
+  - first:
+      213: 4811878298472861348
+    second: free-web-buttons-set-07-vector-removebg-preview_7
+  - first:
+      213: 5417059367226507329
+    second: free-web-buttons-set-07-vector-removebg-preview_8
+  - first:
+      213: 5767812584152569492
+    second: free-web-buttons-set-07-vector-removebg-preview_9
+  - first:
+      213: -3626329081318168809
+    second: free-web-buttons-set-07-vector-removebg-preview_10
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: free-web-buttons-set-07-vector-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 222
+        width: 185
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7620fdb4d8bc664b0800000000000000
+      internalID: -5447442891534302617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free-web-buttons-set-07-vector-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 342
+        width: 173
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6ada91e4372a110800000000000000
+      internalID: 1270704824147355388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free-web-buttons-set-07-vector-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 278
+        width: 173
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb91b51b9f4115a0800000000000000
+      internalID: -6552368455344874507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free-web-buttons-set-07-vector-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 210
+        width: 174
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deff92d96327f4110800000000000000
+      internalID: 1247341200695492589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free-web-buttons-set-07-vector-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 104
+        width: 99
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32dd56e00c8bddfc0800000000000000
+      internalID: -3468413002990625501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free-web-buttons-set-07-vector-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 99
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e81fae781f86280800000000000000
+      internalID: -9049717885136433520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free-web-buttons-set-07-vector-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 110
+        width: 88
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758f9b5058ba7a310800000000000000
+      internalID: 1416289195646384215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free-web-buttons-set-07-vector-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 12
+        width: 73
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aec2ea61d937c240800000000000000
+      internalID: 4811878298472861348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free-web-buttons-set-07-vector-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 18
+        width: 73
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1400dbe2bc24d2b40800000000000000
+      internalID: 5417059367226507329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free-web-buttons-set-07-vector-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 18
+        width: 71
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49611717cf26b0050800000000000000
+      internalID: 5767812584152569492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: free-web-buttons-set-07-vector-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 21
+        width: 73
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717ac55e9e0bcadc0800000000000000
+      internalID: -3626329081318168809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      free-web-buttons-set-07-vector-removebg-preview_0: -5447442891534302617
+      free-web-buttons-set-07-vector-removebg-preview_3: 1247341200695492589
+      free-web-buttons-set-07-vector-removebg-preview_4: -3468413002990625501
+      free-web-buttons-set-07-vector-removebg-preview_1: 1270704824147355388
+      free-web-buttons-set-07-vector-removebg-preview_10: -3626329081318168809
+      free-web-buttons-set-07-vector-removebg-preview_2: -6552368455344874507
+      free-web-buttons-set-07-vector-removebg-preview_9: 5767812584152569492
+      free-web-buttons-set-07-vector-removebg-preview_6: 1416289195646384215
+      free-web-buttons-set-07-vector-removebg-preview_5: -9049717885136433520
+      free-web-buttons-set-07-vector-removebg-preview_8: 5417059367226507329
+      free-web-buttons-set-07-vector-removebg-preview_7: 4811878298472861348
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
