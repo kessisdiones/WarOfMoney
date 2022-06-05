@@ -12,7 +12,7 @@ public class PlayerMovimetJoystic : MonoBehaviour
     public bool atacando=false;
 
     bool AndarDisponivel=true;
-    public float TempoDelayAndar = 1.5f;
+    public float TempoDelayAndar = 0.5f;
     
     void Start()
     {
@@ -24,6 +24,7 @@ public class PlayerMovimetJoystic : MonoBehaviour
         movePlayer();
         animationPlayer();
         animationPlayerAnim();
+    
         
        
     }
@@ -41,29 +42,34 @@ public class PlayerMovimetJoystic : MonoBehaviour
         if(dir != Vector3.zero){
             transform.LookAt(transform.position + dir);
         }
-        StartCoroutine("DelayAndar");
+       
         }
+        else if(!AndarDisponivel){
+             StartCoroutine("DelayAndar");
+        }
+
         
         
     }   
     void animationPlayer(){
-         if(AndarDisponivel){
+        
         Animacao.SetFloat("HorizontalMove",moveH);
         Animacao.SetFloat("VerticalMove",moveV);
-        StartCoroutine("DelayAndar");
-         }
+        
+         
     }
 
     public void animationPlayerAnim(){
+        
        if(Input.GetMouseButtonDown(1)){
        atacando = true;
-    
         AndarDisponivel=false;
     
        }
        else if(Input.GetMouseButtonUp(1)) {
            atacando=false;
            }
+        
     }
 
     IEnumerator DelayAndar(){
@@ -71,5 +77,5 @@ public class PlayerMovimetJoystic : MonoBehaviour
         yield return new WaitForSeconds(TempoDelayAndar);
         AndarDisponivel=true;
     }
-
-    }
+}
+    
