@@ -18636,7 +18636,7 @@ MonoBehaviour:
   moveJoystic: {fileID: 2982534376205100597}
   SpeedMove: 10
   atacando: 0
-  TempoDelayAndar: 1.5
+  TempoDelayAndar: 0.5
 --- !u!1 &1182423253
 GameObject:
   m_ObjectHideFlags: 0
