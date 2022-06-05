@@ -9,5 +9,8 @@ public class DestroirMagia : MonoBehaviour
     {
         GameObject.Destroy(gameObject, DistanciaDaMagia);
     }
+    public void OnTriggerEnter(Collider objColisao){
+        GameObject.Destroy(gameObject);
+    }
 
 }

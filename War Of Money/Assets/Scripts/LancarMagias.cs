@@ -8,33 +8,47 @@ public class LancarMagias : MonoBehaviour
     public Transform OndeSaiMagia;
     public int VelocidadeDaMagia;
     private Animator Animacao;
+    bool HabilidadeDisponivel=true;
+    public float TempoDelayHabilidade = 3f;
     
+
+  
 
 void Start(){
        
         Animacao = GetComponent<Animator>();
     }
     void UpDate(){
-  
+     
     
     }
      
     public void atacar(){
         
-          
+        if(HabilidadeDisponivel){
+            Animacao.SetTrigger("Atacando");
+           
         Rigidbody Rb = Rigidbody.Instantiate (Magia, OndeSaiMagia.position, OndeSaiMagia.rotation)
             as Rigidbody;
             Rb.AddForce(OndeSaiMagia.forward * VelocidadeDaMagia);
-          Animacao.SetInteger("Atacar",2);
-            Debug.Log("Lançou Magia");
-            
-           
         
-        
-            
+        StartCoroutine("DelayHabilidade");
+        HabilidadeDisponivel=false;
+        }      
     }
 
+    IEnumerator DelayHabilidade(){
+       
+        yield return new WaitForSeconds(TempoDelayHabilidade);
+        HabilidadeDisponivel=true;
+    }
+    public void morrer(){
+        Animacao.SetTrigger("Morrer");
+    }
+     
     
+
+  
 
     
     
