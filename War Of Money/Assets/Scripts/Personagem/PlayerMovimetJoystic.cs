@@ -66,10 +66,14 @@ public class PlayerMovimetJoystic : MonoBehaviour
         AndarDisponivel=false;
     
        }
-       else if(Input.GetMouseButtonUp(1)) {
+       else  {
            atacando=false;
            }
         
+    }
+
+    public void morrer(){
+        Animacao.SetTrigger("Morrer");
     }
 
     IEnumerator DelayAndar(){
