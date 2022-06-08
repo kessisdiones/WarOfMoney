@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class TempoDeRecarga : MonoBehaviour
 {
     private Button botao;
-    public GameObject SliderTempoRecarga;
+    //public GameObject SliderTempoRecarga;
     bool HabilidadeDisponivel=true;
     public float TempoDelayHabilidade = 1f;
 
@@ -20,7 +20,7 @@ public class TempoDeRecarga : MonoBehaviour
     public void TimeDeRecarga(){
         if(HabilidadeDisponivel){
             HabilidadeDisponivel=true;
-            SliderTempoRecarga.SetActive(true);
+            //SliderTempoRecarga.SetActive(true);
             botao.enabled = false;
             botao.interactable=false;
             StartCoroutine("DelayHabilidade");
@@ -34,6 +34,6 @@ public class TempoDeRecarga : MonoBehaviour
         HabilidadeDisponivel=true;
         botao.enabled = true;
         botao.interactable = true;
-        SliderTempoRecarga.SetActive(false);
+        //SliderTempoRecarga.SetActive(false);
     }
 }
