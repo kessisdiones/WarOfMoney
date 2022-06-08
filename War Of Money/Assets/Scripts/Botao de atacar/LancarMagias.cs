@@ -10,15 +10,14 @@ public class LancarMagias : MonoBehaviour
     public int VelocidadeDaMagia;
     private Animator Animacao;
     bool HabilidadeDisponivel=true;
-    public float TempoDelayHabilidade = 3f;
-    public Button botao;
+    public float TempoDelayHabilidade = 1f;
     
    
 
   
 
 void Start(){
-        botao= GetComponent<Button>();
+        
         Animacao = GetComponent<Animator>();
     }
 
@@ -38,7 +37,7 @@ void UpDate(){
             as Rigidbody;
             Rb.AddForce(OndeSaiMagia.forward * VelocidadeDaMagia);
 
-            botao.interactable=false;
+            
             HabilidadeDisponivel=false;
             StartCoroutine("DelayHabilidade");
         
@@ -51,7 +50,7 @@ void UpDate(){
        
         yield return new WaitForSeconds(TempoDelayHabilidade);
         HabilidadeDisponivel=true;
-        botao.interactable=true;
+       
     }
 
 }

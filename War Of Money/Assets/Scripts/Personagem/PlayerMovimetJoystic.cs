@@ -23,7 +23,7 @@ public class PlayerMovimetJoystic : MonoBehaviour
     {
         movePlayer();
         animationPlayer();
-        animationPlayerAnim();
+        
     
         
        
@@ -31,9 +31,10 @@ public class PlayerMovimetJoystic : MonoBehaviour
 
     
     void movePlayer(){
-        if(!atacando && AndarDisponivel){
-        
-        moveH = moveJoystic.joystick.joystickX;
+        //if(!atacando && AndarDisponivel){
+        if (AndarDisponivel){
+
+            moveH = moveJoystic.joystick.joystickX;
         moveV = moveJoystic.joystick.joystickY; 
         Vector3 dir = new Vector3(moveH,0, moveV);
         rb.velocity = new Vector3(moveH*SpeedMove, rb.velocity.y, moveV*SpeedMove);
@@ -59,19 +60,14 @@ public class PlayerMovimetJoystic : MonoBehaviour
          
     }
 
-    public void animationPlayerAnim(){
+    public void Atacando(){
         
-       if(Input.GetMouseButtonDown(1)){
-       atacando = true;
+       
         AndarDisponivel=false;
     
        }
-       else  {
-           atacando=false;
-           }
-        
-    }
-
+       
+   
     public void morrer(){
         Animacao.SetTrigger("Morrer");
     }

@@ -5,45 +5,35 @@ using UnityEngine.UI;
 
 public class TempoDeRecarga : MonoBehaviour
 {
-    private float TimeDeRecarga;
-    private const float TempoMaximo= 5f;
-    public Slider slider;
+    private Button botao;
+    public GameObject SliderTempoRecarga;
+    bool HabilidadeDisponivel=true;
+    public float TempoDelayHabilidade = 1f;
+
 
     void Start(){
-        slider= GetComponent<Slider>();
-    }
-    void UpDate(){
+        botao= GetComponent<Button>();
        
-        slider.value = CalculateSliderValue();
-
-        if(Input.GetMouseButtonDown(1)){
-            TimeDeRecarga = TempoMaximo;
-            Debug.Log("apertou");
-        }
-        if(TimeDeRecarga <= 0 ){
-            TimeDeRecarga = 0;
-        }
-        
-        else if(TimeDeRecarga > 0){
-            TimeDeRecarga-= Time.deltaTime;
-        }
         
     }
 
-    public void tempo(){
-        
-            TimeDeRecarga = TempoMaximo;
-            Debug.Log("apertou");
-        
-         if(TimeDeRecarga <= 0 ){
-            TimeDeRecarga = 0;
+    public void TimeDeRecarga(){
+        if(HabilidadeDisponivel){
+            HabilidadeDisponivel=true;
+            SliderTempoRecarga.SetActive(true);
+            botao.enabled = false;
+            botao.interactable=false;
+            StartCoroutine("DelayHabilidade");
         }
-        
-        else if(TimeDeRecarga > 0){
-            TimeDeRecarga-= Time.deltaTime;
-        }
+
     }
-    float CalculateSliderValue(){
-       return (TimeDeRecarga / TempoMaximo);
+
+    IEnumerator DelayHabilidade(){
+       
+        yield return new WaitForSeconds(TempoDelayHabilidade);
+        HabilidadeDisponivel=true;
+        botao.enabled = true;
+        botao.interactable = true;
+        SliderTempoRecarga.SetActive(false);
     }
 }
